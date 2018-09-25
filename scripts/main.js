@@ -4,5 +4,10 @@ var THUMBNAIL_LINK_SELECTOR = '[data-image-role="trigger"]';
 
 function setDetails() {
 	'use strict';
-	// Code will go here
+	var detailImage = document.querySelector(DETAIL_IMAGE_SELECTOR);
+	detailImage.setAttribute('src', 'img/otter3.jpg');
+
+	var detailTitle = document.querySelector(DETAIL_TITLE_SELECTOR);
+	detailTitle.textContent = 'You Should Be Dancing';
 }
+
