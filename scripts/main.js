@@ -10,4 +10,3 @@ function setDetails(imageURL, titleText) {
 	var detailTitle = document.querySelector(DETAIL_TITLE_SELECTOR);
 	detailTitle.textContent = titleText;
 }
-
